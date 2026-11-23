@@ -6,6 +6,8 @@ GitHubを単一のサービスではなく、**GitHub Web/API・Gitサービス�
 
 ## 1. 全体の論理構成
 
+![GitHub全体の論理構成図](./GitHub論理図.png)
+
 ```mermaid
 flowchart TB
   subgraph Client[利用者・実行環境]
